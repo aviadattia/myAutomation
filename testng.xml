@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="tests.CheckBillTest"/>
+      <class name="tests.OpeningWindowsTest"/>
+      <class name="tests.LoginTest"/>
+      <class name="tests.CheckOutCustomerInformationTest"/>
+      <class name="tests.RemoveProduct"/>
+      <class name="tests.MenuOptionsTest"/>
+      <class name="tests.LockedOutUserTest"/>
+      <class name="tests.PerformanceTestingUserTest"/>
+      <class name="tests.AddingAProduct"/>
+      <class name="tests.PrucesByBudget"/>
+      <class name="tests.DDT"/>
+      <class name="tests.SortOptionsTest"/>
+      <class name="tests.ProbalmUserTest"/>
+      <class name="tests.Sanity_endToEnd_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
